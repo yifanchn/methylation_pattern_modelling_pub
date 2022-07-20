@@ -2,7 +2,8 @@
 import Model
 
 # general imports:
-import os  # only necessary if one wants to save results -- can lead to problems with some operating systems and can be
+import os  # only necessary if one wants to save results by setting save=True in the function
+# average_cluster_size_multirun()-- can lead to problems with some operating systems and can be
 # commented if that is the case
 import numpy as np
 from bisect import bisect_right
