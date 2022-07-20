@@ -67,7 +67,7 @@ if __name__ == "__main__":
     tend = 1000
     # sequence length
     L = 200
-    # spontaneous methylation rate
+    # spontaneous demethylation rate
     s = 1.47e-3
     # strength of neighbouring interactions
     a = 1
@@ -93,4 +93,3 @@ if __name__ == "__main__":
 
     # plot mSFS after Gillespie
     mSFS_custom_sequences(C, cohort=True, absolute=True)
-    
